@@ -1,4 +1,35 @@
-<!DOCTYPE html>
+[6:21 PM, 3/1/2021] Bro: .c{
+    /* background-image: url('https://mcdn.wallpapersafari.com/medium/37/33/rS8nG0.jpg'); */
+    background-color: rgb(21, 22, 24);
+    /* background-size: cover; */
+    text-align: center;
+    opacity: 80;
+}
+/* below class is for the input of title and delete title */
+.titl{
+    background-color: rgb(249, 252, 255);  
+    width: 25vw;
+    height: 40px;
+    font-size: 16px;
+    text-align: center;
+    /* border-radius: 30px; */
+    border-radius: 30px 0px 0px 30px;
+    border: none;
+
+   
+}
+
+.addnt{
+    background-color: rgb(18, 65, 116);
+    font-size: 18px; 
+    /* border-radius: 30px; */
+    border-radius:0px 30px 30px 0px;
+    width: 100px;
+    height: 42px;
+    border: none;
+    /* transform: translate(12vw,-2.65vw); */
+    /* transform: translate(18…
+[6:24 PM, 3/1/2021] Bro: <!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
@@ -39,7 +70,7 @@
                 x+='<input id="'+colortxt+'" type="color" class="clrbtn" oninput="changetxtcolor(\''+txt_area_id+'\')" /><button id="'+txtclrbtn+'" class="bgclr"><b>A</b></button>';
                 x+='<input id="'+colorid+'" type="color" class="clrbtn" oninput="changecolor(\''+txt_area_id+'\')" /><button id="'+txtarbtn+'" class="bgclr"><b>A</b></button>';
                 x+='<button id="'+bldid+'" type="button" onclick="boldtog(\''+textareaname+'\')" class="bgclr"><b>B</b></button>';
-                x+='<button type="button" class="btnnote" id="" onclick="delme(\''+textareaname+'\');"><b>X</b></button><button type="button" class="btnnote" onclick="saveme(\''+textareaname+'\');"><b>Save</b></button>';
+                x+='<button type="button" class="btnnote" style="float:right;" onclick="delme(\''+textareaname+'\');"><b>X</b></button><button type="button" class="btnnote" style="float:right;" onclick="saveme(\''+textareaname+'\');"><b>Save</b></button>';
                 x+='<br><hr><textarea id="'+txt_area_id+'"></textarea></form>';
 
                 // x+='<button class="xmark" type="button" id="" onclick=delme("'+textareaname+'")>x</button></fieldset>';
@@ -131,7 +162,7 @@
                 x+='<input id="'+colortxt+'" type="color" class="clrbtn" oninput="changetxtcolor(\''+txt_area_id+'\')" /><button id="'+txtclrbtn+'" class="bgclr"><b>A</b></button>';
                 x+='<input id="'+colorid+'" type="color" class="clrbtn" oninput="changecolor(\''+txt_area_id+'\')" /><button id="'+txtarbtn+'" class="bgclr"><b>A</b></button>';
                 x+='<button id="'+bldid+'" type="button" onclick="boldtog(\''+textareaname+'\')" class="bgclr"><b>B</b></button>';
-                x+='<button type="button" class="btnnote" id="" onclick="delme(\''+textareaname+'\');"><b>X</b></button><button type="button" class="btnnote" onclick="saveme(\''+textareaname+'\');"><b>Save</b></button>';
+                x+='<button type="button" class="btnnote" style="float:right;" onclick="delme(\''+textareaname+'\');"><b>X</b></button><button type="button" class="btnnote" style="float:right;" onclick="saveme(\''+textareaname+'\');"><b>Save</b></button>';
                 x+='<br><hr><textarea id="'+txt_area_id+'"></textarea></form>';
 
                 // x+='<button class="xmark" type="button" id="" onclick=delme("'+textareaname+'")>x</button></fieldset>';
