@@ -60,7 +60,7 @@ before font size is written only for input and not for buttons*/
     /* border:  rgb(11, 48, 121); */
     color: rgb(27, 27, 27);
     font-size: 15px;
-    float: right;
+    /* float: right; */
     /* margin: none; */
     margin: 2px;
 
